@@ -1,12 +1,10 @@
-package com.paf.exercise.tournament.controller;
-
-import com.paf.exercise.tournament.exception.ResourceNotFoundException;
+package com.exercise.tournament.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.paf.exercise.tournament.entity.Tournament;
-import com.paf.exercise.tournament.repository.TournamentRepository;
-import com.paf.exercise.tournament.service.PlayerService;
-import com.paf.exercise.tournament.service.TournamentService;
+import com.exercise.tournament.entity.Tournament;
+import com.exercise.tournament.repository.TournamentRepository;
+import com.exercise.tournament.service.PlayerService;
+import com.exercise.tournament.service.TournamentService;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;

@@ -1,14 +1,9 @@
-package com.paf.exercise.tournament.controller;
+package com.exercise.tournament.controller;
 
-import com.paf.exercise.tournament.entity.Player;
-import com.paf.exercise.tournament.entity.Tournament;
-import com.paf.exercise.tournament.exception.ResourceNotFoundException;
-import com.paf.exercise.tournament.repository.PlayerRepository;
-import com.paf.exercise.tournament.repository.TournamentRepository;
-import com.paf.exercise.tournament.service.PlayerService;
-import com.paf.exercise.tournament.service.TournamentService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
+import com.exercise.tournament.entity.Player;
+import com.exercise.tournament.entity.Tournament;
+import com.exercise.tournament.service.PlayerService;
+import com.exercise.tournament.service.TournamentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

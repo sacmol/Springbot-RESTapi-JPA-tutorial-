@@ -1,4 +1,4 @@
-package com.paf.exercise.tournament;
+package com.exercise.tournament;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

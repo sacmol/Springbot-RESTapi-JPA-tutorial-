@@ -1,17 +1,15 @@
-package com.paf.exercise.tournament.services;
+package com.exercise.tournament.services;
 
-import com.paf.exercise.tournament.entity.Tournament;
-import com.paf.exercise.tournament.exception.GlobalExceptionHandler;
-import com.paf.exercise.tournament.exception.ResourceNotFoundException;
-import com.paf.exercise.tournament.repository.TournamentRepository;
-import com.paf.exercise.tournament.service.TournamentService;
+import com.exercise.tournament.entity.Tournament;
+import com.exercise.tournament.exception.ResourceNotFoundException;
+import com.exercise.tournament.repository.TournamentRepository;
+import com.exercise.tournament.service.TournamentService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.http.ResponseEntity;
 
 import java.util.Arrays;
 import java.util.List;

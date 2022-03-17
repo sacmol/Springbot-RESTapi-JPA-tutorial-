@@ -1,9 +1,9 @@
-package com.paf.exercise.tournament.service;
+package com.exercise.tournament.service;
 
-import com.paf.exercise.tournament.entity.Player;
-import com.paf.exercise.tournament.entity.Tournament;
-import com.paf.exercise.tournament.exception.ResourceNotFoundException;
-import com.paf.exercise.tournament.repository.TournamentRepository;
+import com.exercise.tournament.entity.Tournament;
+import com.exercise.tournament.entity.Player;
+import com.exercise.tournament.exception.ResourceNotFoundException;
+import com.exercise.tournament.repository.TournamentRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.paf.exercise.tournament;
+package com.exercise.tournament;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

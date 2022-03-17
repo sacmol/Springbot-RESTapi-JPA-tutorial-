@@ -1,6 +1,6 @@
-package com.paf.exercise.tournament.repository;
+package com.exercise.tournament.repository;
 
-import com.paf.exercise.tournament.entity.Tournament;
+import com.exercise.tournament.entity.Tournament;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
